@@ -9,10 +9,12 @@ body {
     width: 100%;
     height: 100vh;
     background: linear-gradient(to right bottom, #08203e, #557c93);
-    color: #fff;
+    background-image:url('10740576.jpg');
+    background-image: blur;
     display: grid;
     place-items: center;
 }
+
 
 .container {
     width: 80%;
@@ -40,7 +42,7 @@ body {
 
 .choice {
     font-size: 20px;
-    background-color: #e3e3e3ee;
+    background-color: #26d9dcee;
     color: #000;
     margin: 10px auto;
     padding: 10px;
@@ -54,11 +56,11 @@ body {
 }
 
 .choice:hover{
-    background-color: #ddd;
+    background-color: #05aef6;
 }
 
 .choice.selected{
-    background-color: #262729;
+    background-color: #4471ca;
     color: #fff;
 }
 
@@ -68,7 +70,7 @@ body {
     font-weight: 600;
     padding: 12px 20px;
     margin: 20px auto 0 auto;
-    background-color: #017a01;
+    background-color: #3070c5;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -76,7 +78,7 @@ body {
 }
 
 .btn:hover{
-    background-color: #08780c;
+    background-color: #085c78;
 }
 
 .scoreCard{
@@ -85,7 +87,7 @@ body {
 }
 
 .alert{
-    background-color: #5d9b63;
+    background-color: #6772e8;
     border-radius: 5px;
     width: 100%;
     padding: 12px;
@@ -117,7 +119,10 @@ body {
     align-items: center;
     animation: pulse 1s ease-in-out infinite;
 }
-
+/* h5 {
+    text-shadow: #26d9dcee;
+} */
+ 
 /* Adding Animation to Timer */
 @keyframes pulse{
     0%{
